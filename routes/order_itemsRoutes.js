@@ -1,5 +1,5 @@
 const express = require('express');
-const mysql = require('mysql');
+const db = require('../db');
 const router = express.Router();
 
  // CREATE order_items (POST)
